@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+     <!-- Metadat -->
+       <meta charset="UTF-8">
+       <meta name="JS-Assignment 2" content="HTML-Forms,Javascript,Reference of Assignment 1">
+     
+     <!-- Title tag -->
+        <title>JS2</title>
+
+     <!-- Script tag -->
+     <script type="text/javascript" src="calculator.js"></script>
+     
+
+  </head>
+
+  <body>
+     
+     <!-- HTML form with inputs and answer buttons -->
+     <form name = "Calculator">
+        
+        <!-- Required Fields in Form -->
+     
+        <label>Input1:</label><br/><input type = "text" id = "number1"><br/><br/>
+
+        <label>Input2:</label><br/><input type = "text" id = "number2"><br/><br/>
+         
+        
+        <label>Operators: </label><br/><select id = "operator">
+                                              <option value = "+">+</option>
+                                              <option value = "-">-</option>
+                                              <option value = "*">*</option>
+                                              <option value = "%">%</option>
+                                              <option value = "/">/</option>
+                                        </select><br/><br/>
+        
+        <label>Result :</label><br/><input type = "text" id="result">
+        <button onclick="return calculation()">answer</button><br/>
+
+     </form>
+
+     <!-- Error commenting -->
+     <p id="error comment"></p>
+     
+  </body>
+</html>
+
+
